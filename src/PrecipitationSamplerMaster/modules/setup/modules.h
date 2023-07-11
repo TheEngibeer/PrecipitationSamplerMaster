@@ -5,6 +5,10 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 
+// External Libraries
+#include <DS3231.h>
+#include <HCSR04.h>
+#include <SD.h>
 
 // Function prototypes
 #include "./prototypes.h"
@@ -16,17 +20,10 @@
 // System Control
 #include "../system/control.cpp"
 #include "../system/pinconfigs.cpp"
-/*
-// External Libraries
-#include "RTClib.h"
-#include <AccelStepper.h>
-#include <HCSR04.h>
-#include <SD.h>
 
 // Components
 #include "../Components/DS3231.cpp"
 #include "../Components/HCSR04.cpp"
-#include "../Components/Lid.cpp"
-#include "../Components/SD-Card.cpp"
-#include "../Components/SleepControl.cpp"
-*/
+#include "../Components/Master.cpp"
+#include "../Components/Rotiny.cpp"
+#include "../Components/SDCard.cpp"

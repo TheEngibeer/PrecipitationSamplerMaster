@@ -18,41 +18,41 @@
 //                 Arduino/Arduino communication                //
 // ------------------------------------------------------------ //
 
-#define PI_ARDUINO_COM 2 // Communication from Slave to master
+#define PI_ARDUINO_COM 2  // Communication from Slave to master
 
 // ------------------------------------------------------------ //
 //                    Real time clock module                    //
 // ------------------------------------------------------------ //
 
-#define PT_RTC_ALARM 3 // Interrupt signal from RTC module
-#define PO_RTC_DATA 19 // I2C communication to and from RTC module
-#define PO_RTC_CLK 20  // I2C Clock signal to RTC module
+#define PT_RTC_ALARM   2   // Interrupt signal from RTC module
+#define PO_RTC_DATA    18  // I2C communication to and from RTC module
+#define PO_RTC_CLK     19  // I2C Clock signal to RTC module
 
 // ------------------------------------------------------------ //
 //                          DC-Motors                           //
 // ------------------------------------------------------------ //
 
-#define PO_LID_OPEN 6  // Open signal pin
-#define PO_LID_CLOSE 7 // Close signal pin
+#define PO_LID_OPEN    5  // Open signal pin
+#define PO_LID_CLOSE   6  // Close signal pin
 
 // ------------------------------------------------------------ //
 //                       Optical sensors                        //
 // ------------------------------------------------------------ //
 
-#define PO_DIST_TRIG 8 // Trigger signal to make meassurement
-#define PI_DIST_ECHO 9 // Echo signal to determine distance
+#define PO_DIST_TRIG   7  // Trigger signal to make meassurement
+#define PI_DIST_ECHO   8  // Echo signal to determine distance
 
 // ------------------------------------------------------------ //
 //                           SD-Card                            //
 // ------------------------------------------------------------ //
 
-#define PO_SD_CS 11   // Chip select pin
-#define PO_SD_MOSI 12 // Master out Slave in
-#define PI_SD_MISO 13 // MASTER IN SLAVE OUT
-#define PO_SD_SCK 14  // Clock
+#define PO_SD_CS       10  // Chip select pin
+#define PO_SD_MOSI     11  // Master out Slave in
+#define PI_SD_MISO     12  // MASTER IN SLAVE OUT
+#define PO_SD_SCK      13  // Clock
 
 // ------------------------------------------------------------ //
 //                     Mechanical switches                      //
 // ------------------------------------------------------------ //
 
-#define PI_SWTCH_LID 15 // Limitswitch for "Lid Closed"
+#define PI_SWTCH_LID   14  // Limitswitch for "Lid Closed"
